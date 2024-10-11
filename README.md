@@ -19,7 +19,7 @@ Predecir el sitio de origen de las muestras en función de su composición quím
 
 * Lenguaje  : Python
 * Librerías : `Matplotlib`, `Numpy`, `Pandas`, `SciPy`, `Scikit-learn`,`Sklearn`
-* Entorno   : Visual Studio Code
+* Entorno    : Visual Studio Code
 
 # Descripción de los Datos
 
