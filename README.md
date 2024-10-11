@@ -1,6 +1,6 @@
 <div align="center">
   
-# Modelos de Clasificación
+# Modelos de Clasificación: Alfarería Romano-Británica
 <p>
   <img src="imagenes/intro.png" width="500">
 </p>
