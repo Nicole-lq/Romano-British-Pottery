@@ -2,7 +2,7 @@
   
 # Modelos de Clasificación: Alfarería Romano-Británica
 <p>
-  <img src="imagenes/intro.png" width="500">
+  <img src="imagenes/intro.png" width="400">
 </p>
 
 </div>
