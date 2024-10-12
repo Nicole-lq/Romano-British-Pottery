@@ -15,12 +15,6 @@ El proyecto se centra en la aplicación de modelos de clasificación a las muest
 
 Predecir el sitio de origen de las muestras en función de su composición química, utilizando diferentes modelos de clasificación. 
 
-# Tecnologías Utilizadas
-
-* Lenguaje  : Python
-* Librerías : ´Pandas´ , ´Numpy´, ´Matplotlib´, ´Seaborn´, ´Scikit-learn´, ´Sklearn´
-* Entorno   : Visual Studio Code
-
 # Descripción de los Datos
 
 El conjunto de variables predictoras corresponde a los siguientes químicos encontrados en las muestras de alfarería Romano-británica: 
@@ -33,6 +27,11 @@ El conjunto de variables predictoras corresponde a los siguientes químicos enco
 
 La variable objetivo esta dada por **Sitio**, la cual representa el lugar de origen de la muestra. Esta variable es categórica, teniendo como posibles alternativas: *C, I, A y L*.
 
+# Tecnologías Utilizadas
+
+* Lenguaje  : Python
+* Librerías : `Matplotlib`, `Numpy`, `Pandas`, `SciPy`, `Scikit-learn`,`Sklearn`
+* Entorno    : Visual Studio Code
 
 # Procedimiento
 
