@@ -1,55 +1,57 @@
 <div align="center">
   
-# Modelos de Clasificación: Alfarería Romano-Británica
+# Classification Models: Romano-British Pottery
 <p>
   <img src="imagenes/intro.png" width="400">
 </p>
 
 </div>
 
-# Resumen del Proyecto
+# Project Summary
 
-El proyecto se centra en la aplicación de modelos de clasificación a las muestras de una antigua alfarería Romano-británica, recolectadas de cuatro sitios en el Reino Unido (L, C, I, A), a las cuales se les realizó un análisis químico detallado para medir el porcentaje de cinco óxidos metálicos presentes en cada muestra: Aluminio (Al), Hierro (Fe), Magnesio (Mg), Calcio (Ca) y Sodio (Na).
+The project focuses on the application of classification models to samples of ancient Romano-British pottery, collected from four sites in the United Kingdom (L, C, I, A). A detailed chemical analysis was conducted on the samples to measure the percentage of five metal oxides present in each: Aluminum (Al), Iron (Fe), Magnesium (Mg), Calcium (Ca), and Sodium (Na).
 
-# Objetivo
+# Objective
 
-Predecir el sitio de origen de las muestras en función de su composición química, utilizando diferentes modelos de clasificación. 
+To predict the origin site of the samples based on their chemical composition using different classification models.
 
-# Descripción de los Datos
+# Data Description
 
-El conjunto de variables predictoras corresponde a los siguientes químicos encontrados en las muestras de alfarería Romano-británica: 
+The set of predictor variables corresponds to the following chemicals found in the Romano-British pottery samples:
 
-- **Aluminio (Al)** : Porcentaje de aluminio en la muestra.
-- **Hierro (Fe)**   : Porcentaje de hierro en la muestra.
-- **Magnesio (Mg)** : Porcentaje de magnesio en la muestra.
-- **Calcio (Ca)**   : Porcentaje de calcio en la muestra.
-- **Sodio (Na)**    : Porcentaje de sodio en la muestra.
+- **Aluminum (Al)**: Percentage of aluminum in the sample.
+- **Iron (Fe)**: Percentage of iron in the sample.
+- **Magnesium (Mg)**: Percentage of magnesium in the sample.
+- **Calcium (Ca)**: Percentage of calcium in the sample.
+- **Sodium (Na)**: Percentage of sodium in the sample.
 
-La variable objetivo esta dada por **Sitio**, la cual representa el lugar de origen de la muestra. Esta variable es categórica, teniendo como posibles alternativas: *C, I, A y L*.
+The target variable is **Site**, which represents the origin of the sample. This is a categorical variable, with the possible values: *C, I, A, and L*.
 
-# Tecnologías Utilizadas
+# Technologies Used
 
-* Lenguaje  : Python
-* Librerías : `Matplotlib`, `Numpy`, `Pandas`, `SciPy`, `Scikit-learn`,`Sklearn`
-* Entorno    : Visual Studio Code
+* Language  : Python
+* Libraries : `Matplotlib`, `Numpy`, `Pandas`, `SciPy`, `Scikit-learn`, `Sklearn`
+* Environment: Visual Studio Code
 
-# Procedimiento
+# Procedure
 
-* Análisis exploratorio de los datos
-* Procesos de extracción y limpieza de datos
-* Análisis de pertinencia de Annova
-* Implementación de modelos de Machine Learning: Decision Trees y Random Forest.
+* Exploratory data analysis
+* Data extraction and cleaning processes
+* ANOVA pertinence analysis
+* Implementation of Machine Learning models: Decision Trees and Random Forest.
 
-# Resultados
+# Results
 
-Se implementaron dos modelos de clasificación, cada uno con resultados destacados:
+Two classification models were implemented, each yielding notable results:
 
-* **Análisis ANOVA:** Se realizó un test ANOVA para evaluar la independencia, la normalidad de las observaciones y la homocedasticidad entre grupos. Sin embargo, no se cumplieron las condiciones de normalidad para todo el conjunto de datos, lo que llevó a la conclusión de que no correspondía realizar un test ANOVA en este contexto.
+* **ANOVA Analysis:** An ANOVA test was conducted to evaluate independence, normality of observations, and homoscedasticity across groups. However, the normality conditions were not met for the entire dataset, leading to the conclusion that an ANOVA test was not suitable in this context.
 
-* **Decision Tree Classifier:** Este modelo inicial logró un accuracy *(porcentaje de predicciones correctas sobre el total de predicciones realizadas)* del **75%**. Se realizó un análisis de errores a través de una matriz de confusión, permitiendo identificar las predicciones incorrectas y mejorar el modelo.
+* **Decision Tree Classifier:** This initial model achieved an accuracy *(percentage of correct predictions over total predictions made)* of **75%**. An error analysis was conducted using a confusion matrix, allowing identification of incorrect predictions and further model improvement.
 
-* **Random Forest Classifier:** Con una búsqueda de hiperparámetros mediante grid search, este modelo alcanzó un accuracy del **87.5%**, superando notablemente al modelo anterior.
+* **Random Forest Classifier:** Using hyperparameter tuning with grid search, this model achieved an accuracy of **87.5%**, significantly outperforming the previous model.
 
-# Conclusiones
+# Conclusions
 
-A través de la aplicación de técnicas de machine learning, este proyecto demuestra la utilidad de los métodos de clasificación en el análisis químico de la alfarería. Además, en este contexto, la capacidad de predecir el sitio de origen de las muestras en función de su composición química no solo contribuye al entendimiento histórico de la alfarería Romano-británica, sino que también muestra el potencial de la ciencia de datos en el análisis arqueológico. Estos resultados subrayan la importancia de seleccionar el modelo adecuado y optimizar sus parámetros para obtener una clasificación más precisa.
+Through the application of machine learning techniques, this project demonstrates the utility of classification methods in the chemical analysis of pottery. Furthermore, in this context, the ability to predict the origin site of samples based on their chemical composition not only contributes to the historical understanding of Romano-British pottery but also showcases the potential of data science in archaeological analysis. These results highlight the importance of selecting the appropriate model and optimizing its parameters to achieve more accurate classification.
+
+**_The code is originally in spanish but I´ll upload an english version soon_**
