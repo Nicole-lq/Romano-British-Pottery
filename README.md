@@ -54,4 +54,4 @@ Two classification models were implemented, each yielding notable results:
 
 Through the application of machine learning techniques, this project demonstrates the utility of classification methods in the chemical analysis of pottery. Furthermore, in this context, the ability to predict the origin site of samples based on their chemical composition not only contributes to the historical understanding of Romano-British pottery but also showcases the potential of data science in archaeological analysis. These results highlight the importance of selecting the appropriate model and optimizing its parameters to achieve more accurate classification.
 
-**_The code is originally in spanish but I´ll upload an english version soon_**
+**_The code is originally in spanish but I´ll upload an english version soon._**
